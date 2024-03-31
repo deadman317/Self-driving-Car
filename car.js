@@ -15,7 +15,7 @@ class Car {
 
     if (controlType != "AUTO") {
       this.sensor = new Sensor(this);
-      this.brain = new NeuralNetwork([this.sensor.rayCount, 6, 4]);
+      this.brain = new NeuralNetwork([this.sensor.rayCount, 8, 4]);
     }
 
     if (controlType == "AI") {
