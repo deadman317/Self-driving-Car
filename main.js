@@ -30,7 +30,7 @@ function generateCars(N) {
         28,
         50,
         "AI",
-        10
+        5
       )
     );
   }
@@ -70,33 +70,6 @@ const traffic = [
   new Car(
     road.getLaneCenter(2),
     -300,
-    30,
-    50,
-    "AUTO",
-    1,
-    trafficColor[Math.floor(Math.random() * trafficColor.length)]
-  ),
-  new Car(
-    road.getLaneCenter(2),
-    -500,
-    30,
-    50,
-    "AUTO",
-    1,
-    trafficColor[Math.floor(Math.random() * trafficColor.length)]
-  ),
-  new Car(
-    road.getLaneCenter(3),
-    -500,
-    30,
-    50,
-    "AUTO",
-    1,
-    trafficColor[Math.floor(Math.random() * trafficColor.length)]
-  ),
-  new Car(
-    road.getLaneCenter(4),
-    -500,
     30,
     50,
     "AUTO",
